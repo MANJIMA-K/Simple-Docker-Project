@@ -4,14 +4,14 @@ This is a simple dockerized node.js project
 
 docker login
 
-docker build -t <imageName> .
+docker build -t my-node-app .
 
-docker build -t <imageName>:v<versionNumber> .
+docker build -t my-node-app:v1 .
 
 docker images
 
-docker run -p <nodeJsProjectRunningPort>:<dockerExposedPort>
+docker run -p 3000:3000
 
 docker ps -a
 
-docker stop <ContainerName>
+docker stop containerName
