@@ -15,3 +15,17 @@ docker run -p 3000:3000
 docker ps -a
 
 docker stop containerName
+
+docker run -d -p 3000:3000 image-name
+
+docker logs containerName
+
+docker run -d -p 3000:3000 --name newContainerName image-name
+
+docker exec containerName ls
+
+docker exec it containerName bash
+
+ls
+
+cat fileName
