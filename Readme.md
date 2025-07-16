@@ -29,3 +29,23 @@ docker exec it containerName bash
 ls
 
 cat fileName
+
+docker volume ls
+
+docker volume create myvol
+
+docker volume inspect myvol
+
+docker volume rm myvol
+
+docker volume prune
+
+docker network ls
+
+docker network create mynet
+
+docker network inspect bridge
+
+docker network rm mynet
+
+docker network prune
